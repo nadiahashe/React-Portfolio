@@ -1,0 +1,8 @@
+.temp {
+    background-color: purple;
+  }
+  
+  body {
+    background-image: url(./assets/bg2.jpg);
+    /* width: 100%; */
+  }
