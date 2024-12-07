@@ -1,4 +1,5 @@
 import './styles/home.css';
+import React from 'react';
 import coder from '../assets/coder.png';
 import Typewriter from 'typewriter-effect';
 

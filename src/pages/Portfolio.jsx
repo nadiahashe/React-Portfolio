@@ -1,52 +1,40 @@
-import wD from '../assets/wD.jpg';
-import MFB from '../assets/MFB.png';
-import SSAC from '../assets/SSAC.png';
-import empDB from '../assets/empDB2.jpg';
-import VBuilder from '../assets/VBuilder2.png';
-import RMG from '../assets/RMG.png';
-import gitWhite from '../assets/gitWhite.png';
+// import wD from '../assets/wD.jpg';
+// import MFB from '../assets/MFB.png';
+// import SSAC from '../assets/SSAC.png';
+// import empDB from '../assets/empDB2.jpg';
+// import VBuilder from '../assets/VBuilder2.png';
+// import RMG from '../assets/RMG.png';
+// import gitWhite from '../assets/gitWhite.png';
+import React from 'react';
 import './styles/portfolio.css';
 
 export default function Portfolio() {
   const projects = [
-    {
-      title: 'Weather API Dashboard',
-      imgSrc: wD,
-      description: 'Integrated Weather application using OpenWeather API. Provides real-time weather data for any city in the world. Features include current weather, 5-day forecast, and search history.',
-      githubLink: 'https://github.com/bmw-dev0p/Weather-Dash-Challenge9',
-      demoLink: 'https://weather-dash-challenge9.onrender.com',
-    },
+    
     {
       title: 'My First Blog',
       imgSrc: MFB,
       description: 'Simple blogging website where users can create, edit, and delete posts. Features include use of local storage, dynamic rendering of posts, and light/dark mode.',
-      githubLink: 'https://github.com/bmw-dev0p/First-Blog-Challenge4',
-      demoLink: 'https://bmw-dev0p.github.io/First-Blog-Challenge4/',
-    },
-    {
-      title: 'Animal Adoption Center',
-      imgSrc: SSAC,
-      description: 'An elevated sample website for an animal adoption center. Users can browse, adopt, and print adoption certificates.',
-      githubLink: 'https://github.com/bmw-dev0p/Animal-Shelter-Project1',
-      demoLink: 'https://bmw-dev0p.github.io/Animal-Shelter-Project1/',
+      githubLink: '',
+      demoLink: '',
     },
     {
       title: 'Employee Database',
-      imgSrc: empDB,
+    //   imgSrc: empDB,
       description: 'Back-end SQL database app that simulates workplace heirarchy structures. Allows users to view, add, and modify employees, roles, and departments. Demonstrates best coding practices for server-side storage.',
-      githubLink: 'https://github.com/bmw-dev0p/Employee-DB-Challenge10',
+      githubLink: '',
     },
     {
       title: 'Console Vehicle Builder',
-      imgSrc: VBuilder,
+    //   imgSrc: VBuilder,
       description: 'Console application that allows users to build and drive custom vehicles. Demonstrates object-oriented programming principles and inheritance structures.',
-      githubLink: 'https://github.com/bmw-dev0p/Vehicle-Builder-Challenge8',
+      githubLink: '',
     },
     {
       title: 'Professional README Generator',
-      imgSrc: RMG,
+    //   imgSrc: RMG,
       description: 'Node.js application that generates professional README files for GitHub repositories. Features include user input validation, markdown formatting, built-in badges,  and file creation.',
-      githubLink: 'https://github.com/bmw-dev0p/README-Gen-Challenge7.2',
+      githubLink: '',
     },
   ];
 

@@ -1,4 +1,5 @@
 import './styles/contact.css';
+import React from 'react';
 import contact from '../assets/contactMe.png';
 
 

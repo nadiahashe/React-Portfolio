@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './styles/about.css';
-import self from '../assets/selfplosion.png';
+// import self from '../assets/selfplosion.png';
 
 // Function to load GitHub contributions graph and streak stats
 function GitHubGraphs() {
@@ -28,12 +28,12 @@ function GitHubGraphs() {
     <div className="row graphs">
       <div className="col text-center">
         <h2 className="medText mt-4">GitHub Contributions</h2>
-        <div id="gh" data-login="bmw-dev0p"></div>
+        <div id="gh" data-login="nadiahashemi"></div>
       </div>
       <div className='col text-center'>
         <h2 className="medText mt-4">GitHub Streak Stats</h2>
         <img
-          src="https://github-readme-streak-stats.herokuapp.com/?user=bmw-dev0p"
+          src="https://github.com/nadiahashe"
           alt="GitHub Streak Stats"
           className="github-streak"
         />
@@ -119,7 +119,7 @@ export default function About() {
             </p>
           </div>
           <div className="col-lg-6 mb-4 d-flex justify-content-center">
-            <img className='self' src={self} alt="myself" />
+            {/* <img className='self' src={} alt="myself" /> */}
           </div>
         </div>
         <SkillBarsAndCircles />
