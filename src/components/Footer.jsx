@@ -8,10 +8,10 @@ const Footer = () => {
     <div className="footer-container">
       <footer className="footer">
         <div className='footer-content'>
-          <a href="https://github.com/bmw-dev0p" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/nadiahashe" target="_blank" rel="noopener noreferrer">
             <img className='logo' src={git} alt="GitHub" />
           </a>
-          <a href="https://www.linkedin.com/in/your-linkedin-profile/" target="_blank" rel="noopener noreferrer">
+          <a href="" target="_blank" rel="noopener noreferrer">
             <img className='logo' src={linked} alt="LinkedIn" />
           </a>
         </div>
