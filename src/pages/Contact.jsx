@@ -1,6 +1,6 @@
 import './styles/contact.css';
 import React from 'react';
-import contact from '../assets/contactMe.png';
+// import contact from '../assets/contactMe.png';
 
 
 export default function Contact() {
@@ -11,7 +11,7 @@ export default function Contact() {
         <div className="row moveDown">
         {/* Image Column */}
         <div className="col-5">
-        <img src={contact} alt="Contact Us" className="imgStyle" />
+        {/* <img src={contact} alt="Contact Us" className="imgStyle" /> */}
         </div>
         {/* Form Column */}
         <div className="col-5">

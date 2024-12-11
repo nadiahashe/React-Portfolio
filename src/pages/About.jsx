@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import './styles/about.css';
+// import './styles/about.css';
 // import self from '../assets/selfplosion.png';
 
 // Function to load GitHub contributions graph and streak stats
@@ -8,12 +8,12 @@ function GitHubGraphs() {
     // Load CSS
     const link = document.createElement('link');
     link.rel = 'stylesheet';
-    link.href = 'http://lengthylyova.pythonanywhere.com/static/gh-contrib-graph/gh.css';
+    link.href = '';
     document.head.appendChild(link);
 
     // Load JS
     const script = document.createElement('script');
-    script.src = 'http://lengthylyova.pythonanywhere.com/static/gh-contrib-graph/gh.js';
+    script.src = '';
     script.async = true;
     document.body.appendChild(script);
 
@@ -106,16 +106,14 @@ export default function About() {
       <div className="container">
         <div className="row aboutMe align-items-center">
           <div className="col-lg-6 mb-4">
-            <h2 className='medText'>Brad Webster</h2>
+            <h2 className='medText'>Nadia Hashemi</h2>
             <h1 className='bigText'>I <span className='purple'>&lt;am.../&gt;</span></h1>
             <p>
-              I’m a student software developer with a growing skill set.. I’ve dived into the world of coding through university, coding bootcamps, and self-taught lessons. I have experience with HTML, CSS, and JavaScript, and I’m excited to continue exploring with TypeScript, Node.js, and React.
+            Hi, I’m Nadia Hashemi, a student software developer with a growing skill set and a passion for building meaningful projects. I’ve explored the world of development through university, coding bootcamps, and self-taught lessons.
               <br />
-              My journey started with a curiosity about how electronics work, taking apart mobile phones and building desktop PCs. It quickly evolved into a full-blown passion for creating intuitive and dynamic applications. I thrive on solving problems and am always eager to learn new technologies and best practices.
+              My experience spans HTML, CSS, and JavaScript, and I’m currently diving deeper into technologies like TypeScript, Node.js, and React.
               <br />
-              When I’m not coding, you can find me experimenting with new projects, collaborating with fellow developers, or simply exploring innovative tech solutions. I’m looking forward to contributing my skills to meaningful projects and growing as a developer in this ever-evolving field.
-              <br />
-              Feel free to browse through my portfolio to see some of the work I’ve done and get in touch if you’d like to collaborate or chat about technology!
+              With a love for solving complex challenges and a keen eye for detail, I’m excited to create impactful solutions while continuously learning and growing in the tech world.
             </p>
           </div>
           <div className="col-lg-6 mb-4 d-flex justify-content-center">

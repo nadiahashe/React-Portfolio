@@ -1,10 +1,4 @@
-// import wD from '../assets/wD.jpg';
-// import MFB from '../assets/MFB.png';
-// import SSAC from '../assets/SSAC.png';
-// import empDB from '../assets/empDB2.jpg';
-// import VBuilder from '../assets/VBuilder2.png';
-// import RMG from '../assets/RMG.png';
-// import gitWhite from '../assets/gitWhite.png';
+
 import React from 'react';
 import './styles/portfolio.css';
 
