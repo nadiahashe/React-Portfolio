@@ -1,6 +1,6 @@
 // import './styles/home.css';
 import React from 'react';
-import coder from '../assets/coder.png';
+import girl from '../assets/girl.png';
 import Typewriter from 'typewriter-effect';
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
               />
             </p>
             </div>
-            <img className='col coder' src={coder} alt="Logo" />
+            <img className='col coder' src={girl} alt="Logo" />
         </div>
       </div>
     </div>
